@@ -1,0 +1,25 @@
+{
+    "name": "food",
+    "blocks": [
+        {
+            "name": "block-1",
+            "src": "1.jpg",
+            "legend": "ACME provides a wide range of solutions catering to all stages of the production line."
+        },
+        {
+            "name": "block-2",
+            "title": "Acme understands special demands of the food and beverage field: highly reliable products designed for the strictest hygiene requirements.",
+            "text": "Acme components and solutions are able to adapt to aggressive environments and regular wash-downs with ease. Palletisation and de-palletisation solutions catering to Food & Beverage are Acme's expertise.",
+            "label": "See our products",
+            "src": "2.jpg"
+        },
+        {
+            "name": "block-3",
+            "src": "3.jpg",
+            "video": "sprite_01_white",
+            "poster": "4.jpg",
+            "legend": "Fluid sealing and gaskets working in steam, alcohol and water environments."
+        }
+    ]
+}
+

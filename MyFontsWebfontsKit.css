@@ -1,0 +1,46 @@
+﻿/**
+ * @license
+ * MyFonts Webfont Build ID 3084978, 2015-09-02T13:38:45-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: FF DIN Web Pro Bold by FontFont
+ * URL: http://www.myfonts.com/fonts/fontfont/ff-din/pro-bold/
+ * 
+ * Webfont: FF DIN Web Pro by FontFont
+ * URL: http://www.myfonts.com/fonts/fontfont/ff-din/pro-regular/
+ * 
+ * 
+ * License: http://www.myfonts.com/viewlicense?type=web&buildid=3084978
+ * Licensed pageviews: 50,000
+ * Webfonts copyright: 2009 Albert-Jan Pool published by FSI FontShop International GmbH
+ * 
+ * © 2015 MyFonts Inc
+*/
+
+
+
+
+  
+@font-face {
+    font-family: 'FFDINWebProBold';
+    src: url('webfonts/2F12B2_0_0.eot');
+    src: url('./webfonts/2F12B2_0_0.eot?#iefix') format('embedded-opentype'),
+    url('webfonts/2F12B2_0_0.woff2') format('woff2'),url('webfonts/2F12B2_0_0.woff') format('woff'),
+    url('webfonts/2F12B2_0_0.ttf') format('truetype');
+}
+ 
+  
+@font-face {
+    font-family: 'FFDINWebPro';
+    src: url('webfonts/2F12B2_1_0.eot');
+    src: url('./webfonts/2F12B2_1_0.eot?#iefix') format('embedded-opentype'),
+    url('webfonts/2F12B2_1_0.woff2') format('woff2'),
+    url('webfonts/2F12B2_1_0.woff') format('woff'),
+    url('webfonts/2F12B2_1_0.ttf') format('truetype');
+}
+

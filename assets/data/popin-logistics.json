@@ -1,0 +1,25 @@
+{
+    "name": "logistics",
+    "blocks": [
+        {
+            "name": "block-1",
+            "src": "1.jpg",
+            "legend": "ACME provides all the solutions you need to grow your next generation distribution centre."
+        },
+        {
+            "name": "block-2",
+            "title": "With over 40 years of experience, Acme provides tailor made solutions to every needs.",
+            "text": "Offering a wide range of solutions specifically designed for 3PL, logistics as well as in-house distribution business. Using Acme solutions, enable industries to stay focused on their core business & improve efficiency. No need to outsource, everything is thought, simply organized thanks to Acme innovative warehouse installations.",
+            "label": "See our products",
+            "src": "2.jpg"
+        },
+        {
+            "name": "block-3",
+            "src": "3.jpg",
+            "video": "sprite_05_white",
+            "poster": "4.jpg",
+            "legend": "ACME can develop material handling solutions for your complex needs."
+        }
+    ]
+}
+

@@ -1,0 +1,25 @@
+{
+    "name": "print",
+    "blocks": [
+        {
+            "name": "block-1",
+            "src": "1.jpg",
+            "legend": "Acme provides reliable and resilient conveyor solutions."
+        },
+        {
+            "name": "block-2",
+            "title": "One of Acme's first objective is to deliver affordable application solutions.",
+            "text": "Acme provides components and solutions with rugged dependability for high volume production and distribution requirements. Over the years, Acme has engaged partnerships to provide tailor made manual handling solutions as well as compressed air pipelines.",
+            "label": "See our products",
+            "src": "2.jpg"
+        },
+        {
+            "name": "block-3",
+            "src": "3.jpg",
+            "video": "sprite_04_white",
+            "poster": "4.jpg",
+            "legend": "Belt and Slat conveyors, pneumatic systems for the printing and packaging industry."
+        }
+    ]
+}
+

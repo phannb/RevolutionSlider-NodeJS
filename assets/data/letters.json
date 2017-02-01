@@ -1,0 +1,467 @@
+{
+    "letters": [
+        {
+            "id": "letter-w-0-left",
+            "type": "letter",
+            "letter": "w",
+            "number": "0",
+            "mask": "left",
+            "keyframe": [
+                {
+                    "x": 819,
+                    "y": 85
+                },
+                {
+                    "x": 467,
+                    "y": 85
+                },
+                {
+                    "x": 467,
+                    "y": 256
+                }
+            ]
+        },
+        {
+            "id": "letter-e-1-left",
+            "type": "letter",
+            "letter": "e",
+            "number": "1",
+            "mask": "left",
+            "keyframe": [
+                {
+                    "x": 693,
+                    "y": 605
+                },
+                {
+                    "x": 565,
+                    "y": 605
+                },
+                {
+                    "x": 565,
+                    "y": 256
+                }
+            ]
+        },
+        {
+            "id": "mask-e-1-left",
+            "type": "mask",
+            "letter": "e",
+            "number": "1",
+            "mask": "left",
+            "keyframe": [
+                {
+                    "x": 400,
+                    "y": 600
+                },
+                {
+                    "x": 400,
+                    "y": 600
+                },
+                {
+                    "x": 400,
+                    "y": 600
+                }
+            ]
+        },
+        {
+            "id": "letter-p-3-left",
+            "type": "letter",
+            "letter": "p",
+            "number": "3",
+            "mask": "left",
+            "keyframe": [
+                {
+                    "x": 330,
+                    "y": 428
+                },
+                {
+                    "x": 682,
+                    "y": 428
+                },
+                {
+                    "x": 682,
+                    "y": 256
+                }
+            ]
+        },
+        {
+            "id": "mask-p-3-left",
+            "type": "mask",
+            "letter": "p",
+            "number": "3",
+            "mask": "left",
+            "keyframe": [
+                {
+                    "x": 0,
+                    "y": 300
+                },
+                {
+                    "x": 0,
+                    "y": 300
+                },
+                {
+                    "x": 0,
+                    "y": 300
+                }
+            ]
+        },
+        {
+            "id": "letter-i-4-left",
+            "type": "letter",
+            "letter": "i",
+            "number": "4",
+            "mask": "left",
+            "keyframe": [
+                {
+                    "x": 869,
+                    "y": -196
+                },
+                {
+                    "x": 756,
+                    "y": -196
+                },
+                {
+                    "x": 756,
+                    "y": 256
+                }
+            ]
+        },
+        {
+            "id": "letter-o-5-right",
+            "type": "letter",
+            "letter": "o",
+            "number": "5",
+            "mask": "right",
+            "keyframe": [
+                {
+                    "x": 945.5,
+                    "y": 431
+                },
+                {
+                    "x": 807.5,
+                    "y": 431
+                },
+                {
+                    "x": 807.5,
+                    "y": 256
+                }
+            ]
+        },
+        {
+            "id": "letter-n-6-right",
+            "type": "letter",
+            "letter": "n",
+            "number": "6",
+            "mask": "right",
+            "keyframe": [
+                {
+                    "x": 730,
+                    "y": 181
+                },
+                {
+                    "x": 883,
+                    "y": 181
+                },
+                {
+                    "x": 883,
+                    "y": 256
+                }
+            ]
+        },
+        {
+            "id": "letter-e-7-right",
+            "type": "letter",
+            "letter": "e",
+            "number": "7",
+            "mask": "right",
+            "keyframe": [
+                {
+                    "x": 1097,
+                    "y": 34
+                },
+                {
+                    "x": 958,
+                    "y": 34
+                },
+                {
+                    "x": 958,
+                    "y": 256
+                }
+            ]
+        },
+        {
+            "id": "mask-e-7-right",
+            "type": "mask",
+            "letter": "e",
+            "number": "7",
+            "mask": "right",
+            "keyframe": [
+                {
+                    "x": 800,
+                    "y": -100
+                },
+                {
+                    "x": 800,
+                    "y": -100
+                },
+                {
+                    "x": 800,
+                    "y": -100
+                }
+            ]
+        },
+        {
+            "id": "letter-e-8-right",
+            "type": "letter",
+            "letter": "e",
+            "number": "8",
+            "mask": "right",
+            "keyframe": [
+                {
+                    "x": 1201,
+                    "y": 184
+                },
+                {
+                    "x": 1026,
+                    "y": 184
+                },
+                {
+                    "x": 1026,
+                    "y": 256
+                }
+            ]
+        },
+        {
+            "id": "letter-r-9-right",
+            "type": "letter",
+            "letter": "r",
+            "number": "9",
+            "mask": "right",
+            "keyframe": [
+                {
+                    "x": 1602,
+                    "y": 35
+                },
+                {
+                    "x": 1093,
+                    "y": 35
+                },
+                {
+                    "x": 1093,
+                    "y": 256
+                }
+            ]
+        },
+        {
+            "id": "letter-t-11-left",
+            "type": "letter",
+            "letter": "t",
+            "number": "11",
+            "mask": "left",
+            "keyframe": [
+                {
+                    "x": -50,
+                    "y": 277
+                },
+                {
+                    "x": 474,
+                    "y": 277
+                },
+                {
+                    "x": 474,
+                    "y": 405
+                }
+            ]
+        },
+        {
+            "id": "letter-h-12-left",
+            "type": "letter",
+            "letter": "h",
+            "number": "12",
+            "mask": "left",
+            "keyframe": [
+                {
+                    "x": 330,
+                    "y": 623
+                },
+                {
+                    "x": 543,
+                    "y": 623
+                },
+                {
+                    "x": 543,
+                    "y": 405
+                }
+            ]
+        },
+        {
+            "id": "mask-h-12-left",
+            "type": "mask",
+            "letter": "h",
+            "number": "12",
+            "mask": "left",
+            "keyframe": [
+                {
+                    "x": 0,
+                    "y": 600
+                },
+                {
+                    "x": 0,
+                    "y": 600
+                },
+                {
+                    "x": 0,
+                    "y": 600
+                }
+            ]
+        },
+        {
+            "id": "letter-e-13-left",
+            "type": "letter",
+            "letter": "e",
+            "number": "13",
+            "mask": "left",
+            "keyframe": [
+                {
+                    "x": 439,
+                    "y": 280
+                },
+                {
+                    "x": 618,
+                    "y": 280
+                },
+                {
+                    "x": 618,
+                    "y": 405
+                }
+            ]
+        },
+        {
+            "id": "letter-f-15-left",
+            "type": "letter",
+            "letter": "f",
+            "number": "15",
+            "mask": "left",
+            "keyframe": [
+                {
+                    "x": 556,
+                    "y": 279
+                },
+                {
+                    "x": 735,
+                    "y": 279
+                },
+                {
+                    "x": 735,
+                    "y": 405
+                }
+            ]
+        },
+        {
+            "id": "letter-u-16-right",
+            "type": "letter",
+            "letter": "u",
+            "number": "16",
+            "mask": "right",
+            "keyframe": [
+                {
+                    "x": 555,
+                    "y": 622
+                },
+                {
+                    "x": 802,
+                    "y": 622
+                },
+                {
+                    "x": 802,
+                    "y": 405
+                }
+            ]
+        },
+        {
+            "id": "letter-t-17-right",
+            "type": "letter",
+            "letter": "t",
+            "number": "17",
+            "mask": "right",
+            "keyframe": [
+                {
+                    "x": 692,
+                    "y": 280
+                },
+                {
+                    "x": 871,
+                    "y": 280
+                },
+                {
+                    "x": 871,
+                    "y": 405
+                }
+            ]
+        },
+        {
+            "id": "letter-u-18-right",
+            "type": "letter",
+            "letter": "u",
+            "number": "18",
+            "mask": "right",
+            "keyframe": [
+                {
+                    "x": 1600,
+                    "y": 526
+                },
+                {
+                    "x": 941,
+                    "y": 526
+                },
+                {
+                    "x": 941,
+                    "y": 405
+                }
+            ]
+        },
+        {
+            "id": "letter-r-19-right",
+            "type": "letter",
+            "letter": "r",
+            "number": "19",
+            "mask": "right",
+            "keyframe": [
+                {
+                    "x": 768.5,
+                    "y": 764
+                },
+                {
+                    "x": 1016.5,
+                    "y": 764
+                },
+                {
+                    "x": 1016.5,
+                    "y": 405
+                }
+            ]
+        },
+        {
+            "id": "letter-e-20-right",
+            "type": "letter",
+            "letter": "e",
+            "number": "20",
+            "mask": "right",
+            "keyframe": [
+                {
+                    "x": 730,
+                    "y": 623
+                },
+                {
+                    "x": 1091,
+                    "y": 623
+                },
+                {
+                    "x": 1091,
+                    "y": 405
+                }
+            ]
+        }
+    ]
+}
+

@@ -1,0 +1,25 @@
+{
+    "name": "wood",
+    "blocks": [
+        {
+            "name": "block-1",
+            "src": "1.jpg",
+            "legend": "ACME provides a wide range of solutions catering to all stages of the production line."
+        },
+        {
+            "name": "block-2",
+            "title": "Acme offers to Wood and Metalworking industries strong, resistant components that will enhance productivity without any loss of safety.",
+            "text": "These sectors require solutions able to handle heavy components with precision in dusty hot environments. Acme solutions are reliable, powerful & withstand pressure and massive weight.",
+            "label": "See our products",
+            "src": "2.jpg"
+        },
+        {
+            "name": "block-3",
+            "src": "3.jpg",
+            "video": "sprite_02_white",
+            "poster": "4.jpg",
+            "legend": "Acme provides manual handling as well as pneumatic automation components."
+        }
+    ]
+}
+

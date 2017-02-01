@@ -1,0 +1,25 @@
+{
+    "name": "marine",
+    "blocks": [
+        {
+            "name": "block-1",
+            "src": "1.jpg",
+            "legend": "Acme provides cut gaskets, gland packing and pneumatic fittings."
+        },
+        {
+            "name": "block-2",
+            "title": "Over the years Acme's expertise enables the company to provide environmentally specialized solutions for the oil - gas & marine industry.",
+            "text": "With over 2000 items in stock, Acme provides on time support to critical industries. To suit perfectly specific qualitatives requests of these sectors Acme provides solutions able to resist to incredible high pressure.",
+            "label": "See our products",
+            "src": "2.jpg"
+        },
+        {
+            "name": "block-3",
+            "src": "3.jpg",
+            "video": "sprite_05_white",
+            "poster": "4.jpg",
+            "legend": "Storage solutions as well as scanning and printing solutions."
+        }
+    ]
+}
+

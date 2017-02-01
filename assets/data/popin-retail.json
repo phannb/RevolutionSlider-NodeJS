@@ -1,0 +1,25 @@
+{
+    "name": "retail",
+    "blocks": [
+        {
+            "name": "block-1",
+            "src": "1.jpg",
+            "legend": "Acme provides all the basic solutions needed to operate the next generation warehouse."
+        },
+        {
+            "name": "block-2",
+            "title": "The request of fast accurate delivery is a fact!",
+            "text": "Acme understands this and provides advanced, warehouse management systems, automation solutions such as AS/RS, sortation systems and order processing system. Acme has been thought every solution to ensure optimized storage and quick low cost delivery.",
+            "label": "See our products",
+            "src": "2.jpg"
+        },
+        {
+            "name": "block-3",
+            "src": "3.jpg",
+            "video": "sprite_03_white",
+            "poster": "4.jpg",
+            "legend": "Pick to Light systems and sortation solutions for the modern DC."
+        }
+    ]
+}
+

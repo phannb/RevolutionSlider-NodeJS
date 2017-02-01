@@ -1,0 +1,196 @@
+﻿<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8 lt-ie7" lang="fr"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie10 lt-ie9 lt-ie8" lang="fr"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie10 lt-ie9" lang="fr"> <![endif]-->
+<!--[if IE 9]> <html class="no-js lt-ie10" lang="fr"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="" lang="fr">
+<!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+
+    <title v-text="meta.title">Acme experience</title>
+    <meta name="description" v-attr="content: meta.description" content="Discover Acme experience & heritage">
+
+    <link rel="author" href="humans.txt">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="user-scalable=no, initial-scale = 1, minimum-scale = 1, maximum-scale = 1, width=device-width">
+
+    <base href="">
+    <script type="text/javascript">window.baseUrl = '';</script>
+
+    <meta property="og:site_name" content="Acme experience">
+    <meta property="og:title" content="Acme experience">
+    <meta property="og:description" content="Discover Acme experience & heritage">
+    <!-- <meta property="og:url" content="http://acme-experience.com">
+ -->   
+    <meta property="og:url" content="http://acme-experience.com">
+
+    <meta property="og:type" content="website">
+    <!-- <meta property="og:image" content="http://acme-experience.com/share.jpg"> -->
+    <meta property="og:image" content="assets/images/share.jpg">
+    <meta property="og:locale" content="fr_FR">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@acmedubai">
+    <meta name="twitter:title" content="Acme experience">
+    <meta name="twitter:description" content="Discover Acme experience & heritage">
+    <meta name="twitter:image:src" content="http://acme-experience.com/share.jpg">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="manifest.json">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png">
+    <meta name="theme-color" content="#181818">
+
+    <!--[if lt IE 10]><script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/classlist/2014.01.31/classList.min.js"></script><![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="MyFontsWebfontsKit.css">
+
+    <style type="text/css">
+        /*  MFred */
+        @font-face {
+            font-family: 'MFred';
+            src: url('webfonts/MFred.eot');
+            src: url('webfonts/MFred.eot') format('embedded-opentype'),
+                 url('webfonts/MFred.woff2') format('woff2'),
+                 url('webfonts/MFred.woff') format('woff'),
+                 url('webfonts/MFred.ttf') format('truetype'),
+                 url('webfonts/MFred.svg') format('svg');
+        }
+		
+		#page-home.display .mask--1 {
+			transform: translateY(-100%) translateZ(0);
+		}
+    </style>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body class="disable-scroll">
+    <div id="fake-scroll"></div>
+
+    <div id="wrapper">
+        <acme-intersectlayer></acme-intersectlayer>
+
+        <div id="slides">
+            <acme-home></acme-home>
+            <acme-logistics></acme-logistics>
+            <acme-wood></acme-wood>
+            <acme-food></acme-food>
+            <acme-marine></acme-marine>
+            <acme-retail></acme-retail>
+            <acme-print></acme-print>
+            <acme-final></acme-final>
+            <acme-p404></acme-p404>
+        </div>
+
+        <acme-navigation title="{{title}}" slide-number="{{slideNumber}}"></acme-navigation>
+
+        <acme-mixer></acme-mixer>
+
+        <acme-loader on-complete="{{onLoaderComplete}}"></acme-loader>
+    </div>
+
+    <div class="message-mobile valign">
+        <div class="valign__content">
+            <img src="assets\images\logo-acme.png" alt="" width="70" height="19">
+            <p>The Acme experience is optimized for larger screen. Mobile version coming soon.</p>
+        </div>
+    </div>
+
+
+    <script>
+		window.baseUrl = '';
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-60417875-5', 'auto');
+    </script>
+	
+	 <script type="text/javascript" src="jquery.js"></script>
+     <script type="text/javascript" src="DAT.GUI.min.js"></script>
+
+    <script type="text/javascript" src="acme.js"></script>
+	
+	 <script type="text/javascript">
+
+		//o["default"].component("acme-home") initialize function
+		var t = document.querySelector("h1").innerHTML;
+        document.querySelector(".mask--2 .mask__inner").insertAdjacentHTML("beforeend", t), document.querySelector(".slide__content").classList.add("ready");
+        var i = document.querySelector(".logo"),
+            r = i.getBoundingClientRect(),
+            n = document.querySelector(".logo-js");
+        n.style.top = r.top + "px", n.style.left = r.left + "px", fontLoaded = !0;
+		
+		var dataLetters = '[{"id": "letter-w-0-left","type": "letter","letter": "w","number": "0","mask": "left","keyframe": [                {"x": 819,"y": 85}, {"x": 467,"y": 85}, {"x": 467, "y": 256}            ]        },        {            "id": "letter-e-1-left",            "type": "letter",            "letter": "e",            "number": "1",            "mask": "left",            "keyframe": [                {                    "x": 693,                    "y": 605                },                {                   "x": 565,                    "y": 605                },                {                    "x": 565,                   "y": 256                }            ]        },        {            "id": "mask-e-1-left",            "type": "mask",           "letter": "e",            "number": "1",            "mask": "left",            "keyframe": [                {                   "x": 400,                    "y": 600                },                {                    "x": 400,                    "y": 600                },                {                    "x": 400,                    "y": 600                }            ]        },        {            "id": "letter-p-3-left",            "type": "letter",            "letter": "p",            "number": "3",            "mask": "left",            "keyframe": [                {                    "x": 330,                    "y": 428                },                {                    "x": 682,                    "y": 428                },                {                   "x": 682,                    "y": 256                }            ]        },        {            "id": "mask-p-3-left",            "type": "mask",            "letter": "p",            "number": "3",            "mask": "left",            "keyframe": [                {                    "x": 0,                    "y": 300                },                {                    "x": 0,                    "y": 300                },                {                    "x": 0,                    "y": 300                }            ]        },        {            "id": "letter-i-4-left",            "type": "letter",            "letter": "i",            "number": "4",            "mask": "left",            "keyframe": [                {                    "x": 869,                    "y": -196                },                {                    "x": 756,                    "y": -196                },                {                    "x": 756,                    "y": 256                }            ]        },        {            "id": "letter-o-5-right",            "type": "letter",            "letter": "o",            "number": "5",            "mask": "right",            "keyframe": [                {                    "x": 945.5,                    "y": 431                },                {                    "x": 807.5,                    "y": 431                },                {                    "x": 807.5,                    "y": 256                }            ]        },        {            "id": "letter-n-6-right",            "type": "letter",            "letter": "n",            "number": "6",            "mask": "right",            "keyframe": [                {                    "x": 730,                    "y": 181                },                {                    "x": 883,                    "y": 181                },                {                    "x": 883,                    "y": 256                }            ]        },        {            "id": "letter-e-7-right",            "type": "letter",            "letter": "e",            "number": "7",            "mask": "right",            "keyframe": [                {                    "x": 1097,                    "y": 34                },                {                    "x": 958,                    "y": 34                },                {                    "x": 958,                    "y": 256                }            ]        },        {            "id": "mask-e-7-right",            "type": "mask",            "letter": "e",            "number": "7",            "mask": "right",            "keyframe": [                {                    "x": 800,                    "y": -100                },                {                    "x": 800,                    "y": -100                },                {                    "x": 800,                    "y": -100                }            ]        },        {            "id": "letter-e-8-right",            "type": "letter",            "letter": "e",            "number": "8",            "mask": "right",            "keyframe": [                {                    "x": 1201,                    "y": 184                },                {                    "x": 1026,                    "y": 184                },                {                    "x": 1026,                    "y": 256                }            ]        },        {            "id": "letter-r-9-right",            "type": "letter",            "letter": "r",            "number": "9",            "mask": "right",            "keyframe": [                {                    "x": 1602,                    "y": 35                },                {                    "x": 1093,                    "y": 35                },                {                    "x": 1093,                    "y": 256                }            ]        },        {            "id": "letter-t-11-left",            "type": "letter",            "letter": "t",            "number": "11",            "mask": "left",            "keyframe": [                {                    "x": -50,                    "y": 277                },                {                    "x": 474,                    "y": 277                },                {                    "x": 474,                    "y": 405                }            ]        },        {            "id": "letter-h-12-left",            "type": "letter",            "letter": "h",            "number": "12",            "mask": "left",            "keyframe": [                {                    "x": 330,                    "y": 623                },                {                    "x": 543,                    "y": 623                },                {                    "x": 543,                    "y": 405                }            ]        },        {            "id": mask-h-12-left",            "type": "mask",            "letter": "h",            "number": "12",            "mask": "left",            "keyframe": [                {                    "x": 0,                    "y": 600                },                {                    "x": 0,                    "y": 600                },                {                    "x": 0,                    "y": 600                }            ]        },        {            "id": "letter-e-13-left",            "type": "letter",            "letter": "e",            "number": "13",            "mask": "left",            "keyframe": [                {                    "x": 439,                    "y": 280                },                {                    "x": 618,                    "y": 280                },                {                    "x": 618,                    "y": 405                }            ]        },        {            "id": "letter-f-15-left",            "type": "letter",            "letter": "f",            "number": "15",            "mask": "left",            "keyframe": [                {                    "x": 556,                    "y": 279                },                {                    "x": 735,                    "y": 279                },                {                    "x": 735,                    "y": 405                }            ]        },        {            "id": "letter-u-16-right",            "type": "letter",            "letter": "u",            "number": "16",            "mask": "right",            "keyframe": [                {                    "x": 555,                    "y": 622                },                {                    "x": 802,                    "y": 622                },                {                    "x": 802,                    "y": 405                }            ]        },        {            "id": "letter-t-17-right",            "type": "letter",            "letter": "t",            "number": "17",            "mask": "right",            "keyframe": [                {                    "x": 692,                    "y": 280                },                {                    "x": 871,                    "y": 280                },                {                    "x": 871,                    "y": 405                }            ]        },        {            "id": "letter-u-18-right",            "type": "letter",            "letter": "u",            "number": "18",            "mask": "right",            "keyframe": [                {                    "x": 1600,                    "y": 526                },                {                    "x": 941,                    "y": 526                },                {                    "x": 941,                    "y": 405                }            ]        },        {            "id": "letter-r-19-right",            "type": "letter",            "letter": "r",            "number": "19",            "mask": "right",            "keyframe": [                {                    "x": 768.5,                    "y": 764                },                {                    "x": 1016.5,                    "y": 764                },                {                    "x": 1016.5,                    "y": 405                }            ]        },        {            "id": "letter-e-20-right",            "type": "letter",            "letter": "e",            "number": "20",            "mask": "right",            "keyframe": [                {                    "x": 730,                    "y": 623                },                {                    "x": 1091,                    "y": 623                },                {                    "x": 1091,                    "y": 405                }            ]        }    ]';
+
+		//createLetters function
+		if (fontLoaded && dataLetters) { 
+			var t = {
+				left: document.querySelector(".panel--left"),
+				right: document.querySelector(".panel--right")
+			};
+		}
+		
+		document.querySelector(".panel--left").innerHTML = '<div style="color: white;" class="panel panel--left"><span style="transform: translate(463.5px, 167.25px) translateZ(0px); transition: transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;" class="letter-0 letter"><span class="letter__mask">W</span></span><span style="transform: translate(558.5px, 167.25px) translateZ(0px); transition: transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;" class="letter-1 letter"><span style="" class="letter__mask">E</span></span><div class="overlay overlay-1" style="left: 25%; top: 66%;"></div><span style="transform: translate(675.5px, 167.25px) translateZ(0px); transition: transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;" class="letter-3 letter"><span class="letter__mask">P</span></span><div class="overlay overlay-3" style="left: 0%; top: 33%;"></div><span style="transform: translate(749.5px, 167.25px) translateZ(0px); transition: transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;" class="letter-4 letter"><span class="letter__mask">I</span></span><span style="transform: translate(475.5px, 316.75px) translateZ(0px); transition: transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;" class="letter-11 letter"><span class="letter__mask">T</span></span><span style="transform: translate(539.5px, 316.75px) translateZ(0px); transition: transform 1s cubic-bezier(0.5, 0, 0, 1) 0s;" class="letter-12 letter"><span class="letter__mask">H</span></span><div class="overlay overlay-12" style="left: 0%; top: 66%;"></div></div>';
+
+		document.querySelector(".anim-typo").style.visibility = "visible";
+		document.querySelector("#loader").classList.add("hide-logo");
+		document.querySelector("#page-home").classList.add("display");
+		for (i=0; i<=20; i++)
+		{
+			document.querySelector("#page-home .mask--2 .letter-"+i).classList.add("letter");
+		}
+		/*letters = n.replace("&amp;", "&").split("");
+            var s = "";
+            this.letters.forEach(function(e, n) {
+                void 0 != i ? r.letters[n] = '<span class="' + i + " " + t + "-" + n + '">' + e + "</span>" : r.letters[n] = '<span class="' + t + "-" + n + '"><span class="' + t + '__mask">' + e + "</span></span>", s += r.letters[n]
+            }), e.innerHTML = s
+
+		var letterInitialPosition = [];
+		dataLetters.forEach(function(i, r) { 
+			if ("letter" == i.type) ! function() { 
+				var r = e.$root.winWidth / 1600,
+					n = e.$root.winHeight / 900,
+					s = i.keyframe[0].x * r,
+					o = i.keyframe[0].y * n;
+				if (letterInitialPosition[i.number] = {
+						x: s,
+						y: o
+					}, 0 == i.number || 3 == i.number || 1 == i.number || 12 == i.number || 7 == i.number || 6 == i.number || 4 == i.number || 9 == i.number || 11 == i.number || 20 == i.number) {
+					t[i.mask].insertAdjacentHTML("beforeend", document.querySelector(".mask--2 .letter-" + i.number).outerHTML);
+					var a = document.querySelectorAll(".anim-typo .letter-" + i.number);
+					Array.prototype.forEach.call(a, function(e) {
+						e.style[m["default"].transform] = "translate3d(" + s + "px, " + o + "px, 0) "
+					})
+				}
+			}
+			else {
+				var n = document.createElement("div");
+				n.style.left = i.keyframe[0].x / 1600 * 100 + "%";
+				var s = Math.floor(i.keyframe[0].y / 900 * 100);
+				n.style.top = 12 === s ? "-100px" : s + "%", n.classList.add("overlay"), n.classList.add("overlay-" + i.number), t[i.mask].appendChild(n)
+			}
+		})*/
+	 </script>
+    <script type="text/javascript" src="webfont.js"></script>
+    
+
+</body>
+</html>
